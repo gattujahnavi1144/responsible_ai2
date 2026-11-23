@@ -1,0 +1,9 @@
+POST /api/orders HTTP/1.1
+Host: orders.internal.example
+Authorization: REDACTED_SESSION_TOKEN
+Content-Type: application/json
+ 
+{"customer_email": "CUSTOMER_EMAIL", "order_id": 58213}
+ 
+Response: 500 Internal Server Error
+Why does this request fail?
